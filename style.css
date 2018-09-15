@@ -1,0 +1,16 @@
+/* Stylesheet for Checkoff #1 */
+
+body {background-image: url("images/slice.gif")}
+
+#wrapper {
+  background-color: white;
+  background-image: url("images/three_apples.jpeg");
+  width:500px;
+  margin:auto;
+  border-color:black;
+  padding-top:70px;
+  padding-left:100px;
+  padding-bottom:800px;
+}
+
+p {font-size: 20px;}
