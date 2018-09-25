@@ -1,16 +1,39 @@
-/* Stylesheet for Checkoff #1 */
+/* Stylesheet for Assignment #1 */
 
-body {background-image: url("images/slice.gif")}
+body {background-image: url("images/html5.png");
+      background-repeat: repeat-y;  }
 
 #wrapper {
-  background-color: white;
-  background-image: url("images/three_apples.jpeg");
-  width:500px;
+  width:320px;
+  border-style:solid;
   margin:auto;
   border-color:black;
-  padding-top:70px;
-  padding-left:100px;
-  padding-bottom:800px;
 }
 
+#header {
+  background-color: skyblue;
+  display: inline-block;
+  width:320px;
+  padding:0;
+  border:0;
+  margin:0;
+  }
+
+#nav {
+    background-color: lightgray;
+    width:320px;
+    padding:0;
+    border:0;
+    margin:0;
+    }
+
+
 p {font-size: 20px;}
+
+#htmlImg{
+  display: block;
+}
+
+#socialMedia{
+  text-align: right;
+}
